@@ -1,0 +1,60 @@
+.container {
+    width: 940px;
+    height:800px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    position: relative;
+
+    background: url("../image/login/imac.png") 0 0 no-repeat;
+    background-size: 940px 800px;
+    color: white;
+    margin-bottom: 100px;
+    margin-top:70px;
+    padding: 38px 38px 267px;
+    position: relative;
+
+
+}
+
+.resigner{
+    background-color: #1abc9c;
+    height: 500px;
+    width: 864px;
+
+    /*width: 500px;*/
+    /*position: absolute;*/
+    /*right:35px;*/
+}
+
+input[type="text"], input[type="password"]{
+    border: 2px solid #dce4ec;
+    color: #34495e;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    padding: 8px 0 9px 10px;
+    text-indent: 1px;
+    width:90%;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+input[type="submit"],input[type="reset"]{
+    background-color: #1abc9c;
+    padding-bottom: 12px;
+    padding-top: 13px;
+    width:40%;
+    color: white;
+    font-size: 16.5px;
+    position: relative;
+    top:10px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+/*当鼠标停放时*/
+input[type="submit"]:hover,input[type="reset"]:hover,input[type="submit"]:focus,input[type="reset"]:focus{
+    background-color: #2fe2bf;
+}
